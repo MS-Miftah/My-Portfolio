@@ -21,24 +21,25 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Task Listing App",
+    category: "Music Player WebApp",
     title: "project 1",
+    description:
+      "Just have a look to my brand new Music Player. Totally pure vanilla JavaScript poject.",
+    stack: [{ name: "HTML5" }, { name: "SASS" }, { name: "JavaScript" }],
+    image: "/assets/work/Music Player.jpg.png",
+    live: "https://music-player-one-smoky.vercel.app/",
+    github: "https://github.com/MS-Miftah/Music-Player",
+  },
+  {
+    num: "02",
+    category: "Task Listing App",
+    title: "project 2",
     description:
       "A simple lightweight task listing app with smoothing experience.",
     stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }],
     image: "/assets/work/task-list.png",
     live: "https://task-list-app-orcin.vercel.app/",
     github: "https://github.com/MS-Miftah/Task-List-App",
-  },
-  {
-    num: "02",
-    category: "Hostel Boys Finder",
-    title: "project 2",
-    description: "Find your cherished boy using easy searching functionality.",
-    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }],
-    image: "/assets/work/hostel-boys-finder.png",
-    live: "https://hostel-boys-finder.vercel.app/",
-    github: "https://github.com/MS-Miftah/Hostel-Boys-Finder",
   },
   {
     num: "03",
@@ -50,6 +51,16 @@ const projects = [
     image: "/assets/work/e-wallet.png",
     live: "https://e-wallet-zeta.vercel.app/",
     github: "https://github.com/MS-Miftah/E-wallet",
+  },
+  {
+    num: "04",
+    category: "Hostel Boys Finder",
+    title: "project 4",
+    description: "Find your cherished boy using easy searching functionality.",
+    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }],
+    image: "/assets/work/hostel-boys-finder.png",
+    live: "https://hostel-boys-finder.vercel.app/",
+    github: "https://github.com/MS-Miftah/Hostel-Boys-Finder",
   },
 ];
 
